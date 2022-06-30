@@ -1,0 +1,161 @@
+
+
+p{
+    animation: deplie 2s ease-in;
+    text-align: center;
+}
+
+
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes deplie {
+    from {
+        width:0%;
+        height:0%;
+    }
+
+    to {
+        width:100%;
+        height:100% ;
+    }
+  }
+
+
+  @keyframes parkinson {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+  }
+
+  body{
+    height: 100%;
+  }
+
+  #parky{
+    animation: parkinson 0.2s infinite;
+  }
+
+  
+  #jumpy{
+    animation: jump infinite alternate 0.3s;
+    }
+
+    #pulse{
+        animation: pulsating 1.3s linear infinite;
+    }
+
+    @keyframes pulsating {
+        0% {
+            transform: scale(1);
+        }
+    
+        100% {
+            transform: scale(1.3);
+        }
+      }
+
+      @keyframes hifi {
+        from {
+            transform: translateX(-200px);
+        }
+    
+        to {
+            transform: translateX(-10px)
+        }
+      }
+
+      .box1{
+        animation: hifi 0.4s infinite;
+      }
+
+      .box2{
+        animation: hifi 0.2s infinite;
+        background-color: blue;
+      }
+
+      .box3{
+        animation: hifi 0.5s infinite;
+      }
+
+      .box4{
+        animation: hifi 0.1s infinite;
+      }
+
+      .box5{
+        animation: hifi 0.6s infinite;
+      }
+
+      .box6{
+        animation: hifi 0.4s infinite;
+      }
+
+      .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 80px;
+        background-color: bisque;
+        overflow: hidden;
+        color: black;
+        font-size: xx-large;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        
+      }
+
+      .fall{
+        animation: hello 0.4s 
+      }
+
+      li{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+
+      ul{
+        list-style: none;
+        animation: hello 2s infinite;
+      }
+
+
+     
+      
+
+      @keyframes hello {
+        0% {
+            transform: translateY(-100px);
+        }
+    
+        50% {
+            transform: translateY(0px);
+        }
+
+        100% {
+            transform: translateY(100px);
+        }
+
+
+    }
+
+
+
+    

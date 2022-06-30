@@ -1,0 +1,17 @@
+- Site web à visée educative avec pour objectif la familliarisation et
+l'enseignement de l'utilisation de la ligne de commande pour les novices
+
+- Cible visée: les enfants, les débutants en informatique ou les personnes
+désireuses d'apprendre à utiliser la ligne de commande
+
+- Utilisation d'un faux terminal intégré au site
+
+- Enseignement à travers des leçons à mettre en pratique sous forme 
+d'exercices dans le faux terminal
+
+- Création de comptes utilisateurs pour permettre la sauvegarde de la 
+progression dans les exercices
+
+- Une page sera dediée à un recap des commandes
+
+- 

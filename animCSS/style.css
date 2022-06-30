@@ -1,0 +1,53 @@
+/*img:hover{
+   transform: skewX(-60deg);
+}
+
+img:active{
+    transform : matrix(0.1, 0.9, 0.9, 0.8, 5, 10);    
+    border: red solid 5px;
+    margin-top: 10px;
+
+}*/
+
+#bx{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: aqua solid 5px;
+    cursor: grab;
+}
+
+p{
+    max-width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.5) translateX(20px) rotate(35deg) skewY(10deg);
+    transition-property: background-color;
+    transition: background-color 3s linear width;
+}
+
+p:hover{
+    background-color: aqua;
+    width: 1000px;
+}
+
+#cpt{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#cpt:hover{    
+    transform: skewX(40deg);
+
+}
+
+#cpt:active{
+    transform: translateX(200px);
+}
+
+
+
+
+
